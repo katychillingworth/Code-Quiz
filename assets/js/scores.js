@@ -7,7 +7,7 @@ highScore.sort(function (a, b) {
 
 function clearHighScore() {
     highScore = [];
-    localStorage.setItem("")
+    localStorage.setItem("highscores", JSON.stringify(highScore));
 }
 
 
