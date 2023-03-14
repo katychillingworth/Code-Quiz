@@ -1,13 +1,15 @@
 
 var questionsAnswers = [
     {
-        question: "",
-        choices: "",
-        correctAnswer: "" 
+        question: "What does HTML stand for?",
+        choice1: ["1. HyperText Markdown Language", false],
+        choice2: ["2. HyperText Markup Language", true],
+        choice3: ["3. HyperText Markup Linguistics", false],
+        choice4: ["4. HyperText Markdown Law", false],
     },
 
     {
-        question: "",
+        question: "
         choices: "",
         correctAnswer: "" 
     },
@@ -36,6 +38,8 @@ var questionsAnswers = [
         correctAnswer: "" 
     },
 ]
+
+timerCounter.textContent = secondsLeft;
 
 var currentQuestion = 0;
 var score = 0;
